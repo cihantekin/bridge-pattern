@@ -8,6 +8,11 @@ namespace bridge_pattern.Implementation
         {
         }
 
+        public override string GetShapeDescription()
+        {
+            return $"I am a {nameof(Triangle)}. I have {SideCount()} side and my color is {color.Tone} {color.Color}. Opacity: {color.Opacity}";
+        }
+
         public override int SideCount()
         {
             return 3;

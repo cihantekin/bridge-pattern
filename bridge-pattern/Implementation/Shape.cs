@@ -12,5 +12,6 @@ namespace bridge_pattern.Implementation
         }
 
         public abstract int SideCount();
+        public abstract string GetShapeDescription();
     }
 }

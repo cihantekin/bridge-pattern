@@ -13,3 +13,8 @@ Console.Write(Environment.NewLine);
 // Lets create a blue rectangle
 var blueRectangle = new Rectangle(new Blue());
 Console.Write(blueRectangle.GetShapeDescription());
+
+Console.Write(Environment.NewLine);
+
+var blueTriangle = new Triangle(new Blue());
+Console.Write(blueTriangle.GetShapeDescription());
